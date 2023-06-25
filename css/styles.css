@@ -652,7 +652,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.user-privacy:checked {
+.user-privacy:checked + .check {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
