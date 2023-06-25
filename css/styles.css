@@ -585,7 +585,9 @@ img {
 .form-wrap {
   margin-bottom: 8px;
 }
-
+.form-wrap:last-child {
+  margin-bottom: 24px;
+}
 .form-label {
   display: block;
   font-size: 12px;
@@ -640,6 +642,9 @@ img {
 }
 .user-comment:focus {
   border-color: #4d5ae5;
+}
+.privacy-wrap {
+  margin-bottom: 24px;
 }
 .user-privacy {
   font-size: 12px;

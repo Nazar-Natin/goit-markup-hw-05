@@ -373,9 +373,7 @@
         <div class="footer-form-container">
           <p class="form-title">Subscribe</p>
           <form class="footer-form">
-            <label class="form-label">
-              <input type="email" placeholder="E-mail" class="footer-input" />
-            </label>
+            <label class="form-label"> <input name="email-footer type="email" placeholder="E-mail" class="footer-input" /> </label>
             <button type="submit" class="button subscribe-button">
               Subscribe
               <svg width="24" height="24" class="send-ico">
@@ -427,18 +425,17 @@
             <label for="user-comment" class="form-label">Comment</label>
             <textarea name="user-comment" id="user-comment" placeholder="Text input" class="user-comment"></textarea>
           </div>
-          <div class="form-wrap">
-            <div class="input-wrap">
-              <input name="user-privacy" type="checkbox" id="user-privacy" value="true" class="user-privacy visually-hidden" />
-              <label for="user-privacy" class="form-label"
-                >I accept the terms and conditions of the <a href="" class="privacy">Privacy Policy</a>
-                <span class="check">
-                  <svg width="10" height="8">
-                    <use href="./images/icons.svg#icon-check"></use>
-                  </svg>
-                </span>
-              </label>
-            </div>
+          <div class="form-wrap privacy-wrap">
+            <input name="user-privacy" type="checkbox" id="user-privacy" value="true" class="user-privacy visually-hidden" />
+            <label for="user-privacy" class="form-label">
+              I accept the terms and conditions of the
+              <span class="check">
+                <svg width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              <a href="" class="privacy">Privacy Policy</a>
+            </label>
           </div>
           <button type="button" class="button send-button">Send</button>
         </form>
