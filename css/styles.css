@@ -109,10 +109,6 @@ img {
 .soc-link:focus {
   background-color: #404bbf;
 }
-.form {
-  display: flex;
-  gap: 24px;
-}
 /* Index */
 /* Navigation bar */
 .header {
@@ -390,6 +386,10 @@ img {
 .soc-ico-footer {
   fill: #f4f4fd;
 }
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
 .form-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -582,6 +582,10 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
+.form-wrap {
+  margin-bottom: 8px;
+}
+
 .form-label {
   display: block;
   font-size: 12px;
@@ -616,6 +620,9 @@ img {
 .modal-input:focus + .modal-ico {
   fill: #4d5ae5;
 }
+.comment-wrap {
+  margin-bottom: 16px;
+}
 .user-comment {
   width: 100%;
   height: 120px;
@@ -633,9 +640,6 @@ img {
 }
 .user-comment:focus {
   border-color: #4d5ae5;
-}
-.form-wrap:last-child {
-  margin-bottom: 24px;
 }
 .user-privacy {
   font-size: 12px;
