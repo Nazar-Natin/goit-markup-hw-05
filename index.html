@@ -425,18 +425,18 @@
             <label for="user-comment" class="form-label">Comment</label>
             <textarea name="user-comment" id="user-comment" placeholder="Text input" class="user-comment"></textarea>
           </div>
-          <div class="form-wrap privacy-wrap">
-            <input name="user-privacy" type="checkbox" id="user-privacy" value="true" class="user-privacy visually-hidden" />
-            <label for="user-privacy" class="form-label">
+          <label class="modal-checkbox">
+            <input class="modal-checkbox-input visually-hidden" type="checkbox" name="modal-checkbox" required />
+            <div class="modal-checkbox-icon">
+              <svg width="10" height="8" class="modal-checkbox-image">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </div>
+            <p class="modal-checkbox-description">
               I accept the terms and conditions of the
-              <span class="check">
-                <svg width="10" height="8">
-                  <use href="./images/icons.svg#icon-check"></use>
-                </svg>
-              </span>
-              <a href="" class="privacy">Privacy Policy</a>
-            </label>
-          </div>
+              <a class="modal-link" href="#">Privacy Policy</a>
+            </p>
+          </label>
           <button type="button" class="button send-button">Send</button>
         </form>
       </div>
