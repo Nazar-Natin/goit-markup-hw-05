@@ -647,9 +647,13 @@ img {
   display: flex;
   align-items: center;
   position: relative;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
-.check-text span {
+.check-wrap {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
