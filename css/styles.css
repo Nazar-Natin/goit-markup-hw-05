@@ -149,10 +149,14 @@ img {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
+  color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .branches:hover,
 .branches:focus {
+  color: #404bbf;
+}
+.branches.current-page {
   color: #404bbf;
 }
 .branches.current-page::after {
@@ -209,6 +213,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 48px;
 }
 .order-button {
   display: block;
